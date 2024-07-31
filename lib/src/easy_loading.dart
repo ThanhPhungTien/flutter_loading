@@ -310,7 +310,7 @@ class EasyLoading {
   }) {
     Widget w = _instance.successWidget ??
         Icon(
-          Icons.done,
+          Icons.check_circle,
           color: EasyLoadingTheme.indicatorColor,
           size: EasyLoadingTheme.indicatorSize,
         );
@@ -332,7 +332,7 @@ class EasyLoading {
   }) {
     Widget w = _instance.errorWidget ??
         Icon(
-          Icons.clear,
+          Icons.error,
           color: EasyLoadingTheme.indicatorColor,
           size: EasyLoadingTheme.indicatorSize,
         );
